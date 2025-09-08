@@ -7,19 +7,19 @@ function App() {
   <h1 className="text-4xl font-bold text-cyan-400">Yalfred Montes 🧑‍💻</h1>
     <div className="flex gap-4">
       <a href="https://wa.me/50581022202" target="_blank" rel="noopener noreferrer" title="WhatsApp" className="hover:scale-110 transition">
-        <img src="/icons/whatsapp.svg" alt="WhatsApp" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
+        <img src="icons/whatsapp.svg" alt="WhatsApp" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
       </a>
       <a href="mailto:montesyalfred0@gmail.com" target="_blank" rel="noopener noreferrer" title="Gmail" className="hover:scale-110 transition">
-        <img src="/icons/mail.svg" alt="Gmail" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
+        <img src="icons/mail.svg" alt="Gmail" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
       </a>
       <a href="https://github.com/Yalfmon0307" target="_blank" rel="noopener noreferrer" title="GitHub" className="hover:scale-110 transition">
-        <img src="/icons/github.svg" alt="GitHub" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
+        <img src="icons/github.svg" alt="GitHub" className="w-8 h-8 text-cyan-400" style={{ filter: 'invert(52%) sepia(99%) saturate(747%) hue-rotate(140deg) brightness(97%) contrast(101%)' }} />
       </a>
     </div>
   </div>
   <div className="flex flex-col md:flex-row items-center gap-6 bg-gray-800 p-6 rounded-lg shadow-lg mb-12">
           <img
-            src="/perfil.jpg"
+            src="perfil.jpg"
             alt="Foto de perfil de Yalfred Montes"
             className="w-32 h-32 rounded-full object-cover border-4 border-cyan-500 shadow"
           />
@@ -36,7 +36,7 @@ function App() {
           <article>
             <h3 className="text-xl font-bold mb-2 text-teal-200">Programa de registro de Operaciones para una Carniceria</h3>
             <div className="w-full aspect-video overflow-hidden flex items-center justify-center bg-gray-900 rounded mb-2">
-              <img src="/carnes.png" alt="Proyecto Carnes" className="object-cover w-full h-full" />
+              <img src="carnes.png" alt="Proyecto Carnes" className="object-cover w-full h-full" />
             </div>
             <p className="mb-2">Contiene apartados para registrar movimientos y ventas, todo vinculado con el área de caja. El proyecto fue creado con React, Node.js y PostgreSQL como base de datos.</p>
             <div className="flex justify-center">
@@ -47,7 +47,7 @@ function App() {
           <article>
             <h3 className="text-xl font-bold mb-2 text-teal-200">Programa de alquiler de vehículos</h3>
             <div className="w-full aspect-video overflow-hidden flex items-center justify-center bg-gray-900 rounded mb-2">
-              <img src="/rentacar.png" alt="Proyecto Rentacar" className="object-cover w-full h-full" />
+              <img src="rentacar.png" alt="Proyecto Rentacar" className="object-cover w-full h-full" />
             </div>
             <p className="mb-2">Aplicación para automatizar el proceso de alquiler de vehículos, donde se puede seleccionar el vehículo y los días que se desea alquilar para hacer la reserva mediante WhatsApp.</p>
             <div className="flex justify-center">
@@ -58,7 +58,7 @@ function App() {
           <article>
             <h3 className="text-xl font-bold mb-2 text-teal-200">Programa de acortamiento de enlaces</h3>
             <div className="w-full aspect-video overflow-hidden flex items-center justify-center bg-gray-900 rounded mb-2">
-              <img src="/shortlinks.png" alt="Proyecto Shortlinks" className="object-cover w-full h-full" />
+              <img src="shortlinks.png" alt="Proyecto Shortlinks" className="object-cover w-full h-full" />
             </div>
             <p className="mb-2">Permite acortar enlaces largos y compartirlos fácilmente. Incluye un sistema de seguimiento de clics y direcciones IP de los visitantes, además de autenticación de usuarios.</p>
             <div className="flex justify-center">
